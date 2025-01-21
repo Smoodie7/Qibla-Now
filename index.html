@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Qibla'Now</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <p id="next-prayer-text">Fetching next prayer...</p>
+
+    <!-- Compass -->
+    <div class="compass">
+      <div class="compass-main">
+        <!--  Labels -->
+        <span class="north-label">N</span>
+        <span class="east-label">E</span>
+        <span class="west-label">W</span>
+        <span class="south-label">S</span>
+        <div class="compass-rose">
+          <div class="cardial-points">
+            <div class="north-pointer pointer"></div>
+            <div class="east-pointer pointer"></div>
+            <div class="west-pointer pointer"></div>
+            <div class="south-pointer pointer"></div>
+          </div>
+          <div class="ordinal-points">
+            <div class="northeast-pointer"></div>
+            <div class="northwest-pointer"></div>
+            <div class="southeast-pointer"></div>
+            <div class="south-west-pointer"></div>
+          </div>
+        </div>
+        <div class="bt-center"></div>
+        <!-- Needle -->
+        <div class="dip-needle"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
